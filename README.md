@@ -53,3 +53,40 @@ The result is a new array containing only those items.
 In simple words:.filter() helps you pick out the elements you want from an array, based on a condition.
 
 
+## 6. Write a JavaScript program to calculate the factorial of a given number. 
+solutin 1
+```javascript
+function calculateFactorial(n){
+    if(n === 0 || n === 1){
+        return 1;
+    }
+    let result=1
+    for(let i=2 ; i<=n ; i++){
+        result*=i
+    }
+    return result 
+}
+let n=5
+console.log(calculateFactorial(n))
+
+```
+solutin 2
+```javascript
+function calculateFactorial(n){
+    if(n === 0 || n === 1){
+        return 1;
+    }
+    else{
+       return n*calculateFactorial(n-1)
+    }
+     
+}
+let n=5
+console.log(calculateFactorial(n))
+```
+Recursion is when a function calls itself to solve a smaller part of a problem, until it reaches a stopping point (called the base case).
+
+In simple words:A function that solves a big problem by repeating itself on smaller pieces of the problem.
+
+
+
