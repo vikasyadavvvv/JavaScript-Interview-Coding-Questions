@@ -50,9 +50,6 @@ The .filter() method is a built-in JavaScript function used with arrays.
 
 It goes through each item in an array and keeps only the items that pass a test you define.
 The result is a new array containing only those items.
-
-In simple words:
-
-.filter() helps you pick out the elements you want from an array, based on a condition.
+In simple words:.filter() helps you pick out the elements you want from an array, based on a condition.
 
 
