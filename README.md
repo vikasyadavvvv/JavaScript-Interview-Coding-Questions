@@ -29,7 +29,7 @@ let str="pop"
 console.log(checkPalindrome(str))
 ```
 
-##4. Write a JavaScript program to reverse a given string. 
+## 4. Write a JavaScript program to reverse a given string. 
 ```javascript
 function reverseString(str){
     return str.split("").reverse().join("")
