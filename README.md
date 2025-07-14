@@ -107,5 +107,19 @@ console.log(isPrime(n))
 ```
 
 
+## 8.Write a JavaScript program to find the largest element in a nested array. 
+```javascript
+function findLargest(arr){
+    return Math.max(...arr.flat(Infinity))
+}
+let arr=[1,2,3,4,5,[,6,77,90]]
+console.log(findLargest(arr))
+```
+ What does arr.flat(Infinity) do?
+In JavaScript, the .flat() method creates a new array where nested arrays are flattened (i.e., turned into a single-level array).
+By default, .flat() only flattens one level deep.
+If you use .flat(Infinity), it flattens the array all the way down, no matter how deeply nested the elements are.
+
+
 
 
