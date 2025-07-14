@@ -19,3 +19,12 @@ function MaximumNumberinArray(arr) {
 let arr = [1, 2, 3, 4, 5, 66, 7];
 console.log(MaximumNumberinArray(arr));
 ```
+
+## 3. Write a JavaScript function to check if a given string is a palindrome (reads the same forwards and backwards). 
+```javascript
+function checkPalindrome(str){
+    return str === str.split("").reverse().join("")
+}
+let str="pop"
+console.log(checkPalindrome(str))
+```
