@@ -89,4 +89,23 @@ Recursion is when a function calls itself to solve a smaller part of a problem, 
 In simple words:A function that solves a big problem by repeating itself on smaller pieces of the problem.
 
 
+## 7. Write a JavaScript function to check if a given number is prime. 
+```javascript
+function isPrime(n){
+    if (n<=1){
+        return false
+    }
+   for(let i=2 ; i<Math.sqrt(n) ; i++){
+       if( n% i === 0){
+           return false
+       }
+   }
+   return true
+}
+let n=3
+console.log(isPrime(n))
+```
+
+
+
 
