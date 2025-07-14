@@ -107,7 +107,7 @@ console.log(isPrime(n))
 ```
 
 
-## 8.Write a JavaScript program to find the largest element in a nested array. 
+## 8. Write a JavaScript program to find the largest element in a nested array. 
 ```javascript
 function findLargest(arr){
     return Math.max(...arr.flat(Infinity))
@@ -119,6 +119,23 @@ console.log(findLargest(arr))
 In JavaScript, the .flat() method creates a new array where nested arrays are flattened (i.e., turned into a single-level array).
 By default, .flat() only flattens one level deep.
 If you use .flat(Infinity), it flattens the array all the way down, no matter how deeply nested the elements are.
+
+
+## 9. Write a JavaScript function that returns the Fibonacci sequence up to a given number of terms. 
+```javascript
+function fibonacci(n){
+    let sequence=[]
+    if(n>=1) sequence.push(0)
+    if(n>=2) sequence.push(1)
+    
+    for(let i=2;i<=n;i++){
+        let next=sequence[i-1]+sequence[i-2]
+        sequence.push(next)
+    }
+    return sequence
+}
+console.log(fibonacci(10))
+```
 
 
 
