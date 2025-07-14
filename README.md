@@ -54,7 +54,7 @@ In simple words:.filter() helps you pick out the elements you want from an array
 
 
 ## 6. Write a JavaScript program to calculate the factorial of a given number. 
-solutin 1
+Solution 1
 ```javascript
 function calculateFactorial(n){
     if(n === 0 || n === 1){
@@ -70,7 +70,7 @@ let n=5
 console.log(calculateFactorial(n))
 
 ```
-solutin 2
+Solution 2
 ```javascript
 function calculateFactorial(n){
     if(n === 0 || n === 1){
