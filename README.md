@@ -147,5 +147,26 @@ console.log(capitalFirstLetter("hello world"))
 ```
 
 
+## 11.Write a function that takes an array of objects and a key, and returns a new array sorted based on the values of that key in ascending order. 
+```javascript
+function sortByKey(arr,key){
+    return arr.slice().sort((a,b)=>{
+        if(a[key]<b[key]) return -1;
+        if(a[key]>b[key]) return 1;
+        return 0;
+    })
+}
+const users = [
+  { name: "Vikas", age: 25 },
+  { name: "Yash", age: 22 },
+  { name: "Chirag", age: 27 }
+];
+
+const sortedByAge = sortByKey(users, "age");
+console.log(sortedByAge);
+
+```
+
+
 
 
