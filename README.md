@@ -168,5 +168,26 @@ console.log(sortedByAge);
 ```
 
 
+## 12. Implement a deep clone function in JavaScript that creates a copy of a nested object or array without any reference to the original. 
+```javascript
+const original = {
+  name: "Vikas",
+  age: 20,
+  hobbies: ["coding", "gym"],
+  address: {
+    city: "Mumbai",
+    pin: 400070
+  }
+};
+
+const copy=structuredClone(original)
+copy.name="Yash"
+copy.address.city="Bhandup Mumbai"
+console.log("Original",original)
+console.log("Copy",copy)
+```
+
+
+
 
 
