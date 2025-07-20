@@ -238,6 +238,15 @@ console.log(mergeSortedArrays(a, b));
 
 ```
 
+## 15.Write a function that determines if two strings are anagrams of each other
+```javascript
+function Anagram(str1,str2){
+    return str1.split("").sort().join("") === str2.split("").sort().join("")
+}
+console.log(Anagram("anagram","nagaram"))
+```
+
+
 
 
 
