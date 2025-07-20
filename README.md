@@ -1,4 +1,10 @@
-# JavaScript Interview Coding Questions
+# 🚀 JavaScript Interview Coding Questions
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Maintenance](https://img.shields.io/badge/Maintained-Yes-green.svg)
+
+A comprehensive collection of JavaScript interview questions with solutions, explanations, and multiple approaches.
 
 ## 1. Write a JavaScript function to calculate the sum of two numbers.
 
