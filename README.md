@@ -201,6 +201,43 @@ function factorial(n){
 console.log(factorial(5))
 ```
 
+## 14. Implement a function that takes two sorted arrays and merges them into a single sorted array without using any built-in sorting functions. 
+```javascript
+function mergeSortedArrays(arr1, arr2) {
+    let merged = [];
+    let i = 0;
+    let j = 0;
+
+    while (i < arr1.length && j < arr2.length) {
+        if (arr1[i] < arr2[j]) {
+            merged.push(arr1[i]);
+            i++;
+        } else {
+            merged.push(arr2[j]);
+            j++;
+        }
+    }
+
+    while (i < arr1.length) {
+        merged.push(arr1[i]);
+        i++;
+    }
+
+    while (j < arr2.length) { // Fixed: changed i to j
+        merged.push(arr2[j]);
+        j++;
+    }
+
+    return merged;
+}
+
+const a = [1, 3, 5, 7];
+const b = [2, 4, 6, 8, 10];
+
+console.log(mergeSortedArrays(a, b)); 
+
+```
+
 
 
 
