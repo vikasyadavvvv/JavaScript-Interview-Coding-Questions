@@ -7,7 +7,7 @@
 A comprehensive collection of JavaScript interview questions with solutions, explanations, and multiple approaches.
 
 
-## ➕ Sum Function
+## 1. ➕ Sum Function
 
 ### Basic Implementation
 ```javascript
