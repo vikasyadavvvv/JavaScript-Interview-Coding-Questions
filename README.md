@@ -6,15 +6,24 @@
 
 A comprehensive collection of JavaScript interview questions with solutions, explanations, and multiple approaches.
 
-## 1. Write a JavaScript function to calculate the sum of two numbers.
 
+## ➕ Sum Function
+
+### Basic Implementation
 ```javascript
-function Sum(a, b) {
+/**
+ * Calculates the sum of two numbers
+ * @param {number} a - First number to add
+ * @param {number} b - Second number to add
+ * @returns {number} The sum of a and b
+ */
+function sum(a, b) {
     return a + b;
 }
-let result = Sum(10, 5);
-console.log(result);
-```
+
+// Example Usage
+const result = sum(10, 5);
+console.log(result); // Output: 15
 
 ## 2. Write a JavaScript program to find the maximum number in an array.
 
