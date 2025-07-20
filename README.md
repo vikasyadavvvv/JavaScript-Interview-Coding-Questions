@@ -11,12 +11,6 @@ A comprehensive collection of JavaScript interview questions with solutions, exp
 
 ### Basic Implementation
 ```javascript
-/**
- * Calculates the sum of two numbers
- * @param {number} a - First number to add
- * @param {number} b - Second number to add
- * @returns {number} The sum of a and b
- */
 function sum(a, b) {
     return a + b;
 }
@@ -24,6 +18,7 @@ function sum(a, b) {
 // Example Usage
 const result = sum(10, 5);
 console.log(result); // Output: 15
+```
 
 ## 2. Write a JavaScript program to find the maximum number in an array.
 
