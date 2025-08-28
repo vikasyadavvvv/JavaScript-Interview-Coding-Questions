@@ -256,6 +256,23 @@ function Anagram(str1,str2){
 console.log(Anagram("anagram","nagaram"))
 ```
 
+## 16. Remove the duplicate from Array of Object
+```javascript
+let obj = [
+  { id: 1, name: "Alice", email: "alice@example.com", active: true },
+  { id: 1, name: "Alice", email: "alice@example.com", active: true },
+  { id: 2, name: "Bob", email: "bob@example.com", active: false },
+  { id: 3, name: "Charlie", email: "charlie@example.com", active: true }
+];
+
+let unique=obj.filter((value,index,self)=>
+ index === self.findIndex((t)=>(
+     t.id === value.id && t.email === value.email
+     ))
+)
+console.log(unique)
+```
+
 
 
 
