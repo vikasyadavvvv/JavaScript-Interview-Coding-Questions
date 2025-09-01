@@ -303,6 +303,14 @@ console.log(result)
 
 ```
 
+## 18. Implement a function to find the sum of all the numbers in an array. 
+```javascript
+function Sum(arr){
+    return arr.reduce((acc,num)=>acc+num,0)
+}
+console.log(Sum([1,2,3,4,5,6,7,8,9,10]))
+```
+
 
 
 
