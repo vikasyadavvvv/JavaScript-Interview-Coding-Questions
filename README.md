@@ -311,6 +311,24 @@ function Sum(arr){
 console.log(Sum([1,2,3,4,5,6,7,8,9,10]))
 ```
 
+## 19. Given a string, write a function to count the occurrences of each character in the string. 
+```javascript
+function countCharacters(str){
+    let charCount={}
+    for(let i=0;i<str.length;i++){
+        let char=str[i]
+        if(charCount[char]){
+            charCount[char]++
+        }
+        else{
+            charCount[char]=1
+        }
+    }
+    return charCount
+}
+console.log(countCharacters("Hello world"))
+```
+
 
 
 
