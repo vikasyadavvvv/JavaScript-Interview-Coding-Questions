@@ -1,5 +1,14 @@
 # 🚀 JavaScript Interview Coding Questions
 
+# Great learning doesn’t come from shortcuts — it comes from challenging yourself. ✨
+# That’s why when you solve coding problems, don’t just stop at the inbuilt function solution.
+
+# 👉 First, try it with inbuilt functions to understand the logic quickly.
+# 👉 Then, for real growth and mastery, give yourself the homework of solving the same problem without inbuilt functions.
+
+# This way, you build both practical efficiency (knowing built-ins) and deep understanding (mastering logic step by step). 💪
+
+Keep pushing your limits — because every line of code you write without relying on shortcuts makes you a stronger programmer. 🔥
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-green.svg)
