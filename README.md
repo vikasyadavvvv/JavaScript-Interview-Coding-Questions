@@ -8,7 +8,9 @@
 
 # This way, you build both practical efficiency (knowing built-ins) and deep understanding (mastering logic step by step). 💪
 
-Keep pushing your limits — because every line of code you write without relying on shortcuts makes you a stronger programmer. 🔥
+#Keep pushing your limits — because every line of code you write without relying on shortcuts makes you a stronger programmer. 🔥
+
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-green.svg)
