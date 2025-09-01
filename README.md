@@ -273,6 +273,36 @@ let unique=obj.filter((value,index,self)=>
 console.log(unique)
 ```
 
+## 17. Remove the duplicates from array without using inbuilt functions
+```javascript
+let arr=[1,2,3,4,5,5,5,5,6,6,7,7,78,0]
+let uniquearr=[]
+
+for(let i=0;i<arr.length;i++){
+    let isDuplicate=false
+    
+    for(let j=0;j<uniquearr.length;j++){
+        if(arr[i] === uniquearr[j]){
+            isDuplicate=true
+            break;
+        }
+    }
+    if(!isDuplicate){
+        uniquearr.push(arr[i])
+    }
+}
+console.log(uniquearr)
+
+
+
+/// with inbuilt functions
+let arr=[1,2,3,4,5,5,5,5,6,6,7,7,78,0]
+
+let result= new Set(arr)
+console.log(result)
+
+```
+
 
 
 
