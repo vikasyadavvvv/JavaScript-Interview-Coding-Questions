@@ -399,6 +399,20 @@ console.log(countCharacters("Hello world"))
 
 ---
 
+## 20. Find missing Number in array 1 to n+1
+```
+function missingNumber(arr){
+    const n=arr.length;
+    let total=((n+1)*(n+2))/2
+    let sum=0
+    for(let num of arr){
+        sum+=num
+    }
+    return total-sum
+}
+console.log(missingNumber([1,2,4,5,6,7]))
+```
+
 ## 🏁 Tips for Mastery
 
 - **Try each question without built-ins first!**
