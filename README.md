@@ -412,6 +412,22 @@ function missingNumber(arr){
 }
 console.log(missingNumber([1,2,4,5,6,7]))
 ```
+## 21 . Find the non repetitive element in an array 
+```
+function findUniqueElement(arr){
+    let freq={}
+    for(let num of arr){
+        freq[num]=(freq[num]||0)+1
+    }
+    for(let i=0;i<arr.length;i++){
+        if(freq[arr[i]]===1){
+            return arr[i]
+        }
+    }
+    return -1
+}
+console.log(findUniqueElement([1,2,1,3,5,3,5]))
+```
 
 ## 🏁 Tips for Mastery
 
