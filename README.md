@@ -429,6 +429,22 @@ function findUniqueElement(arr){
 console.log(findUniqueElement([1,2,1,3,5,3,5]))
 ```
 
+## 23.Find the index of the first element in the array that is strictly greater than all elements to its left.
+If no such element exists → return -1.
+```
+function findLargestIndex(arr){
+    if(arr.length===0) return -1
+    let maxleft=arr[0]
+    for(let i=1;i<arr.length;i++){
+        if(maxleft<arr[i]) return i
+        maxleft=Math.max(maxleft,arr[i])
+    }
+    return -1 
+}
+console.log(findLargestIndex([2,2,2,8,4,2,3]))
+```
+
+
 ## 🏁 Tips for Mastery
 
 - **Try each question without built-ins first!**
