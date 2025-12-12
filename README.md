@@ -444,6 +444,17 @@ function findLargestIndex(arr){
 console.log(findLargestIndex([2,2,2,8,4,2,3]))
 ```
 
+## 24 .Given an array of integers, find the index of the first element that is greater than the element immediately after it.
+```
+function findLargestNextElement(arr){
+    for(let i=0;i<arr.length-1;i++){
+        if(arr[i]>arr[i+1])
+        return i
+    }
+}
+console.log(findLargestNextElement([1,2,3,4,5,6,7,8,1]))
+```
+
 
 ## 🏁 Tips for Mastery
 
